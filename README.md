@@ -5,7 +5,7 @@ A. How to test?
 	./run_test.sh -p /home/mrtit/WiperdogHome/ -c Case1  
 - Step2: Check result  
 
-Note: "Case1, Case2, Case3" test job connect to database => Need to config default.params and password file connect to SQLServer, MYSQL, POSTGRES.  
+Note: "Case4, Case5, Case6" test job connect to database => Need to config default.params and password file connect to SQLServer, MYSQL, POSTGRES.  
 
 B. Case test  
 
