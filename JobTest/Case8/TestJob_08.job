@@ -20,7 +20,7 @@ ACCUMULATE = {
 		if(prevOUTPUT != null && !prevOUTPUT.isEmpty()) {
 			OUTPUT.each { rec ->
 				if(prevOUTPUT[rec.Name] != null && prevOUTPUT[rec.Name] == rec.Name) {
-					rec["Count"] = rec["CumCnt"] - prevOUTPUT[rec.PhysicalName]["CumCnt"]
+					rec["Count"] = rec["CumCnt"] - prevOUTPUT[rec.Name]["CumCnt"]
 				} else {
 					rec["Count"] = rec["CumCnt"]
 				}
